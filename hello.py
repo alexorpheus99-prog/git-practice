@@ -6,5 +6,11 @@ def greet(name):
     return "你好，" + name + "！欢迎来到 Python。"
 
 
+def add(a, b):
+    """把两个数加起来。"""
+    return a + b
+
+
 if __name__ == "__main__":
     print(greet("同学"))
+    print("1 + 2 =", add(1, 2))
