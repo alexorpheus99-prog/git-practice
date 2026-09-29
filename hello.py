@@ -12,5 +12,5 @@ def add(a, b):
 
 
 if __name__ == "__main__":
-    print(greet("同学"))
+    print(greet("乌金"))
     print("1 + 2 =", add(1, 2))
